@@ -141,12 +141,6 @@
 // FAB States
 // --------------------------------------------------
 
-// Activated / Pressed Button
-:host(.activated) .button-native {
-  background: var(--background-activated);
-  color: var(--color-activated);
-}
-
 // Focused Button
 :host(.focused) .button-native {
   background: var(--background-focused);

@@ -46,3 +46,8 @@
 :host(.fab-button-in-list) ::slotted(ion-icon) {
   font-size: $fab-md-list-button-icon-font-size;
 }
+
+// Activated / Pressed Button
+:host(.activated) .button-native {
+  color: var(--color-activated);
+}

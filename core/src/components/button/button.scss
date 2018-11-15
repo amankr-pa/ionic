@@ -87,8 +87,7 @@
 }
 
 // Focused/Activated Solid Button with Color
-:host(.button-solid.ion-color.focused) .button-native,
-:host(.button-solid.ion-color.activated) .button-native {
+:host(.button-solid.ion-color.focused) .button-native {
   background: #{current-color(shade)};
 }
 
@@ -239,11 +238,6 @@
 :host(.focused) .button-native {
   background: var(--background-focused);
   color: var(--color-focused);
-}
-
-:host(.activated) .button-native {
-  background: var(--background-activated);
-  color: var(--color-activated);
 }
 
 

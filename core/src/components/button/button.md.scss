@@ -27,15 +27,16 @@
   text-transform: #{$button-md-text-transform};
 }
 
+:host(.activated) .button-native {
+  color: var(--color-activated);
+}
+
+
 // Material Design Solid Button
 // --------------------------------------------------
 
 :host(.button-solid) {
   --box-shadow: #{$button-md-box-shadow};
-}
-
-:host(.button-solid.activated) {
-  --box-shadow: #{$button-md-box-shadow-activated};
 }
 
 // Material Design Outline Button

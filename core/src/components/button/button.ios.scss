@@ -24,6 +24,12 @@
   letter-spacing: #{$button-ios-letter-spacing};
 }
 
+:host(.activated) .button-native {
+  background: var(--background-activated);
+  color: var(--color-activated);
+}
+
+
 // iOS Solid Button
 // --------------------------------------------------
 @media (any-hover: hover) {

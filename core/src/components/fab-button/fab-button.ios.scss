@@ -15,6 +15,7 @@
   --transition: #{$fab-ios-transition};
 }
 
+
 :host(.activated) {
   --box-shadow: #{$fab-ios-box-shadow-activated};
   --transform: #{$fab-ios-transform};
@@ -55,6 +56,12 @@
 
 :host(.fab-translucent-in-list) {
   --background: #{$fab-ios-list-button-translucent-background-color};
+}
+
+// Activated / Pressed Button
+:host(.activated) .button-native {
+  background: var(--background-activated);
+  color: var(--color-activated);
 }
 
 // .fab-translucent-ios-#{$color-name} {
